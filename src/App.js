@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from "./pages/home";
 import Game from "./pages/game";
 import 'bulma/css/bulma.min.css';
+import {useState} from "react";
 
 
 function App() {
