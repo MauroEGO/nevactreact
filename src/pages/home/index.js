@@ -20,6 +20,7 @@ function Home(){
                 <div className="container has-text-centered">
                     <Button onClick={()=>onClickButton("/game")} text="Juego"/>
                     <br/>
+                    <br/>
                     <button onClick={()=>setChangebackgrond(fondo2)} className='button is-primary is-large'>Fondo 2</button>
                 </div>
             </div>
